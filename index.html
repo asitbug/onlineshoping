@@ -1,0 +1,408 @@
+<DOCTYPE html!>
+<html>
+    <head><title>Clickkart</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<link href="amazon.css" rel="stylesheet">
+	 </head>
+	  <body>
+	  
+       <header>
+    <div class="nav">
+      <div claas="nav-logo" border>
+        <div class="logo1">
+		<img id="ram" src="pic\IMG-20250926-WA0038.jpg" height="50px" width="80px">
+		</div>
+          
+      
+      <div class="address">
+        <p class="add-first">Deliver to</p>
+        <div ckass="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          
+        <p class="second">India </p>
+          </div>
+      </div>
+    </div>
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search ClickKart" class="search-input">
+        <div class="search icon" style="padding-top:15px;">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    
+      <div class="nav-sign" border>
+        <p><span>Hello,Sign in</span></p>
+        <p class="nav-secondA">Account & List</p>     
+      </div>
+      <div class="nav-return" border>
+        <p><span>Return</span></p>
+        <p class="nav-second">& Order</p>
+      </div>
+       <div class="nav-kart" border>
+        <a href="order.html" style="color:white;">  <i class="fa-solid fa-cart-shopping"></i>
+          Cart</a>
+        </div></div>
+      
+      <div class="panel">
+         <div class="panel-all">
+           <i class="fa-solid fa-bars"></i>
+        All
+           </div>
+        <div class="panel-opos">
+          <p>Today deal's'</p>
+           <p>Customer service</p>
+           <p>Registry</p>
+           <p>Gift cards</p>
+           <p>Sell</p>
+        </div>
+        <div class="panel deals">
+          Shop deals in electronics
+        </div>
+      </div></header>
+	  
+	      <div id="a"> 
+		     <div id="b">
+			   <img src="pic\mobile.jpg" alt="pic1">
+			   <img src="pic\men.png" alt="pc2">
+			   <img src="pic\7.png" alt="pic3">
+			   <img src="pic\mobile.jpg" alt="pic1">
+
+		  </div>
+		   </div>
+		<img src="pic\hj.jpg" id="yu" >
+		
+		<div id="time">
+			   <div class="timer-box">
+    <h2>🔥 Limited Time Offer Ends In 🔥</h2>
+    <div class="time">
+      <div><span id="days">30</span><span class="label">Days</span></div>
+      <div><span id="hours">02</span><span class="label">Hours</span></div>
+      <div><span id="minutes">10</span><span class="label">Minutes</span></div>
+      <div><span id="seconds">00</span><span class="label">Seconds</span></div>
+    </div>
+  </div>
+
+  <script>
+    // Set the offer end date (yyyy-mm-dd hh:mm:ss)
+    let offerEnd = new Date("2025-11-11 23:59:59").getTime();
+
+    let x = setInterval(function() {
+      let now = new Date().getTime();
+      let distance = offerEnd - now;
+
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerText = days;
+      document.getElementById("hours").innerText = hours;
+      document.getElementById("minutes").innerText = minutes;
+      document.getElementById("seconds").innerText = seconds;
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.querySelector(".timer-box").innerHTML = "<h2>ðŸŽ‰ Offer Expired!</h2>";
+      }
+    }, 1000);
+  </script>
+  
+ </div>
+
+		
+		   		   <div id="cards">
+		   		 
+		          <div id="gh">
+				<a href="watch.html">  <img  src="pic\89.png" height="400px" width="300px"></a>
+				  	 </div>
+					  
+			     <div id="jk">
+				<a href="shoes.html">  <img src="pic\shoose.png" height="400px" width="300px"></a>
+			     </div>
+			      
+			    <div id="lm">
+				<a href="suite.html"> <img src="pic\girl.png" height="400px" width="300px"></a>
+			     </div>
+				 
+				 <div id="po">
+				<a href="shirt.html"> <img src="pic\men2.png" height="400px" width="300px"></a>
+				 </div>
+			 </div>
+			 </div>
+			 
+			    <div id="naman">
+				<h1 class="ruf">Beauty Product | Up To 50% off..</h1>
+				  
+				  <div id="raman">
+				  <img src="pic\bue.jpeg">
+				 <h3 class="lvi">Sugar pop</h3>
+				 <h4>&#8377 349/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bue1.jpeg">
+				   <h3 class="pvi">perfume</h3>
+				   <h4>&#8377 399/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bue3.png">
+				   <h3 class="pvi">Spary serum</h3>
+				   <h4>&#8377 249/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bue4.jpg">
+				   <h3 class="kvi">Pond's</h3>
+				   <h4>&#8377 99/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bue2.png">
+				   <h3 class="pvi">Skin Cleanser</h3>
+				   <h4>&#8377 370/.</h4>
+				  </div>
+				  
+				  				
+				</div><br>
+				
+				<div id="naman">
+				<h1 class="ruf">Smart Phones | Up To 40% off..</h1>
+				  
+				  <div id="raman">
+				  <img src="pic\mob2.png">
+				 <h3 class="via">Samsung Galaxy</h3>
+				 <h4>&#8377 89,999/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\mob4.png">
+				   <h3 class="kvi">Apple Ipad </h3>
+				   <h4>&#8377 48,999/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\mob5.png">
+				   <h3 class="lvi">Iphone 14</h3>
+				   <h4>&#8377 61,990/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\mob3.png">
+				   <h3 class="lvi">One plus13R</h3>
+				   <h4>&#8377 33,450/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\mob9.png">
+				   <h3 class="via">Samsung z fold</h3>
+				   <h4>&#8377 1,03,990/.</h4>
+				  </div>
+				  
+				 		
+				</div><br>
+				
+				
+				<div id="naman">
+				<h1 class="ruf">Books | starting&#8377 150/..</h1>
+				  
+				  <div id="raman">
+				  <img src="pic\bk1.jpg"  height="200px" width="220px">
+				 <h3 class="iasc">Atomic Habit</h3>
+				 <h4>&#8377 250/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bk2.jpg" height="200px" width="220px">
+				   <h3 class="kvi">Money  </h3>
+				   <h4>&#8377 275/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bk3.jpg"  height="200px" width="220px">
+				   <h3 class="lvi">Mind Changing</h3>
+				   <h4>&#8377 149/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bk4.jpg"  height="200px" width="220px">
+				   <h3 class="lvi">Geeta</h3>
+				   <h4>&#8377 189/.</h4>
+				  </div>
+				  
+				   <div id="raman">
+				   <img src="pic\bk5.jpg"  height="200px" width="220px">
+				   <h3 class="iasc">Communication</h3>
+				   <h4>&#8377 210/.</h4>
+				  </div>
+				  			
+				</div><br>
+				
+				
+			
+			 <h1 id="pou"> Buy Products across Home, Kitchen at Clickkart </h1>
+			  <div id="ice">
+			     <div class="cube">
+				 <a href="kichen1.html"><img src="pic\kitch.png"></a>
+				 <h2 class="tera">Kitchenware</h2>
+				 </div>
+				 
+			     <div class="cube">
+				 <a href="bed1.html"> <img src="pic\bed.png"></a>
+				  <h2 class="tera">Bedding & <br>
+				 <pre>   Decore</h2>
+				 </div>
+				 
+			     <div class="cube">
+				 <a href="aplianse1.html"> <img src="pic\appli.png"></a>
+				  <h2 class="tera">Appliances</h2>
+				 </div>
+				 
+			  </div><br>
+			  
+			  			  			 	
+
+                   <div id="vikk">
+			 <h2 class="ishu"> Clocks| Starting &#8377 499/..</h2> 
+
+				   
+		<div class="ans">
+		<img src="pic\watch1.jpg">
+		<h3  class="pv">Titan</h3>
+		<h4>&#8377 349/.</h4>
+		</div>
+		
+		<div class="ans">
+		<img src="pic\watch3.jpg">
+		<h3 class="pv">Decorian</h3>
+		<h4>&#8377 295/.</h4>
+		</div>
+				
+		<div class="ans">
+		<img src="pic\watch2.jpg">
+		<h3 class="pv">Generic </h3>
+		<h4>&#8377 449/.</h4>
+		</div>
+		
+		<div class="ans">
+		<img src="pic\watch4.jpg">
+		<h3 class="pv">Kadio</h3>
+		<h4>&#8377 314/.</h4>
+		</div>
+		
+		<div class="ans">
+		<img src="pic\watch6.jpg">
+		<h3 class="pv">Ajanta</h3>
+		<h4>&#8377 450/.</h4>
+		</div>
+		     </div>	<br>
+
+
+			   <img  id="mi"src="pic\sch.jpg" height="400px" width="90%px"><br>
+			   
+			   
+			    <div id="vikk">
+				
+				<h2 class="ishu"> Live Plants for home| Starting &#8377 399/..</h2>
+				   
+		<div class="ans">
+		<img src="pic\pla1.jpg">
+		<h3  class="pv">Ugaoo</h3>
+		<h4>&#8377 349/.</h4>
+		</div>
+		
+		<div class="ans">
+		<img src="pic\pla2.jpg">
+		<h3 class="pv">Decorian</h3>
+		<h4>&#8377 295/.</h4>
+		</div>
+				
+		<div class="ans">
+		<img src="pic\pla7.jpg">
+		<h3 class="pv">Kyari</h3>
+		<h4>&#8377 449/.</h4>
+		</div>
+		
+		<div class="ans">
+		<img src="pic\pla5.jpg">
+		<h3 class="pv">Amulya Frams</h3>
+		<h4>&#8377 314/.</h4>
+		</div>
+		
+		<div class="ans">
+		<img src="pic\pla4.jpg">
+		<h3 class="pv">Live root</h3>
+		<h4>&#8377 450/.</h4>
+		</div>
+		     </div>	<br>
+			 
+			 							   
+			  <img id="bv" src="pic\Screenshot_29-9-2025_20289_www.amazon.in.jpeg">
+			  
+			          <footer>
+          <div class="foot-panel">
+            <a href="#" style="text-decoration: none; color: white;">Back to Top</a>
+        </div>
+        <div class="foot-panel2">
+            <ul>
+               <a href="team.html"> <p>know about team</p></a>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About team</a>
+                <a>Investor Relations</a>
+                <a>about our team</a>
+                <a>Clickkart </a>
+            </ul>
+        <ul>
+            <p>Get to know us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+            <a>About Clickkart</a>
+            <a>Investor Relations</a>
+            <a>Clickkart Devices</a>
+            <a>Clickkart Science</a>
+        </ul>
+            
+        <ul>
+            <p>Get to know us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+<a> About Clickkart </a>
+<a> Investor Relations </a>
+<a> Clickkart Devices </a>
+<a> Clickkart Science </a>
+</ul>
+     <ul>
+<p>Got to know us </p>
+<a> Careers </a>
+<a> Blog </a>
+<a> Clickkart.jobs </a>
+<a> Investor Relations </a>
+<a> Clickkart devices </a>
+<a> Clickkart Science </a>
+</ul>
+
+   </div>
+          
+<div class="foot-panel3">
+<div class="foot-panel4">
+<div class="Pages" align="center">
+<a href="privecy.html" style="text-decoration:none; color: white;"> Condition of use </a>
+<a href="privecy.html" style="text-decoration:none; color: white;"> Privacy notice </a>
+<a href="privecy.html" style="text-decoration:none; color: white;"> Your Ads privacy choice </a>
+</div>
+  
+
+<div class="copyright" align="center">
+1996-2023 Clickkart.com Inc. or its affiliates
+</div>
+  </div>
+
+</div>
+</footer>			 
+   </body>
+ </html>

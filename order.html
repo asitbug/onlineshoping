@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="amazon.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Orders - ClickKart</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f5f6fa;
+      color: #333;
+      padding: 20px;
+    }
+
+    .order-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .order-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: #fafafa;
+    }
+
+    .order-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .order-details {
+      flex: 1;
+    }
+
+    .order-details h3 {
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+
+    .order-details p {
+      font-size: 14px;
+      color: #555;
+      margin: 4px 0;
+    }
+
+    .status {
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+      display: inline-block;
+    }
+
+    .delivered {
+      background: #d4edda;
+      color: #155724;
+    }
+
+    .in-transit {
+      background: #fff3cd;
+      color: #856404;
+    }
+
+    .cancelled {
+      background: #f8d7da;
+      color: #721c24;
+    }
+
+    .delivery-info {
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+      margin-top: 15px;
+    }
+
+    .delivery-info h4 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .delivery-info p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .price {
+      font-weight: 600;
+      color: #2c3e50;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .order-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .order-card img {
+        width: 100%;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <div class="order-container">
+    <h1>My Orders</h1>
+
+    <!-- Order 1 -->
+    <div class="order-card">
+      <img src="pic\buds.jpg" alt="Product Image">
+      <div class="order-details">
+        <h3>Wireless Headphones</h3>
+        <p>Order ID: #CK12345</p>
+        <p class="price">₹1,299</p>
+        <p>Status: <span class="status delivered">Delivered</span></p>
+        <div class="delivery-info">
+          <h4>Delivery Details</h4>
+          <p>Delivered to: Shivam Tiwari<br>
+          Address: 221, MG Road, Lucknow, India<br>
+          Delivery Date: 05 Oct 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order 2 -->
+    <div class="order-card">
+      <img src="pic\tredy.jpg" alt="Product Image">
+      <div class="order-details">
+        <h3>Smart Watch</h3>
+        <p>Order ID: #CK12346</p>
+        <p class="price">₹2,899</p>
+        <p>Status: <span class="status in-transit">In Transit</span></p>
+        <div class="delivery-info">
+          <h4>Expected Delivery</h4>
+          <p>To: Shivam Tiwari<br>
+          Address: 221, MG Road, Lucknow, India<br>
+          Estimated Date: 10 Oct 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order 3 -->
+    <div class="order-card">
+      <img src="pic\spekers.jpg" alt="Product Image">
+      <div class="order-details">
+        <h3>Bluetooth Speaker</h3>
+        <p>Order ID: #CK12347</p>
+        <p class="price">₹1,999</p>
+        <p>Status: <span class="status cancelled">Cancelled</span></p>
+        <div class="delivery-info">
+          <h4>Delivery Details</h4>
+          <p>Cancelled on: 02 Oct 2025<br>
+          Refund Status: Processed</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <img id="bv" src="pic/Screenshot_29-9-2025_20289_www.amazon.in.jpeg">
+        
+                <footer style="font-size: 26px;">
+          <div class="foot-panel">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+               <a href="team.html"> <p>know about team</p></a>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About team</a>
+                <a>Investor Relations</a>
+                <a>about our team</a>
+                <a>Clickkart </a>
+            </ul>
+        <ul>
+            <p>Get to know us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+            <a>About Clickkart</a>
+            <a>Investor Relations</a>
+            <a>Clickkart Devices</a>
+            <a>Clickkart Science</a>
+        </ul>
+            
+        <ul>
+            <p>Get to know us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+<a> About Clickkart </a>
+<a> Investor Relations </a>
+<a> Clickkart Devices </a>
+<a> Clickkart Science </a>
+</ul>
+     <ul>
+<p>Got to know us </p>
+<a> Careers </a>
+<a> Blog </a>
+<a> Clickkart.jobs </a>
+<a> Investor Relations </a>
+<a> Clickkart devices </a>
+<a> Clickkart Science </a>
+</ul>
+
+   </div>
+          
+<div class="foot-panel3">
+<div class="foot-panel4">
+<div class="Pages" align="center">
+<a> Condition of use </a>
+<a> Privacy notice </a>
+<a> Your Ads privacy choice </a>
+</div>
+  
+
+<div class="copyright" align="center">
+1996-2023 Clickkart.com Inc. or its affiliates
+</div>
+  </div>
+
+</div>
+</footer>
+
+</body>
+</html>

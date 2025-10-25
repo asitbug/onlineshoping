@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offer Timer</title>
+  <link href="amazon.css" rel="stylesheet">
+  <style>
+    #time {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f4;
+    }
+
+    .timer-box {
+      text-align: center;
+      background: #ff9800;
+      padding: 20px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      color: white;
+    }
+
+    .timer-box h2 {
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    .time {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 22px;
+    }
+
+    .time div {
+      background: rgba(0,0,0,0.2);
+      padding: 10px 15px;
+      border-radius: 8px;
+      min-width: 70px;
+    }
+
+    .label {
+      font-size: 14px;
+      color: #fff;
+      display: block;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+<div   id="time">
+  <div class="timer-box">
+    <h2>🔥 Limited Time Offer Ends In 🔥</h2>
+    <div class="time">
+      <div><span id="days">30</span><span class="label">Days</span></div>
+      <div><span id="hours">02</span><span class="label">Hours</span></div>
+      <div><span id="minutes">10</span><span class="label">Minutes</span></div>
+      <div><span id="seconds">00</span><span class="label">Seconds</span></div>
+    </div>
+  </div>
+
+  <script>
+    // Set the offer end date (yyyy-mm-dd hh:mm:ss)
+    let offerEnd = new Date("2025-11-11 23:59:59").getTime();
+
+    let x = setInterval(function() {
+      let now = new Date().getTime();
+      let distance = offerEnd - now;
+
+      let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerText = days;
+      document.getElementById("hours").innerText = hours;
+      document.getElementById("minutes").innerText = minutes;
+      document.getElementById("seconds").innerText = seconds;
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.querySelector(".timer-box").innerHTML = "<h2>🎉 Offer Expired!</h2>";
+      }
+    }, 1000);
+  </script>
+  </div>
+<img id="bv" src="pic/Screenshot_29-9-2025_20289_www.amazon.in.jpeg">
+        
+                <footer style="font-size: 26px;">
+          <div class="foot-panel">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+               <a href="team.html"> <p>know about team</p></a>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About team</a>
+                <a>Investor Relations</a>
+                <a>about our team</a>
+                <a>Clickkart </a>
+            </ul>
+        <ul>
+            <p>Get to know us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+            <a>About Clickkart</a>
+            <a>Investor Relations</a>
+            <a>Clickkart Devices</a>
+            <a>Clickkart Science</a>
+        </ul>
+            
+        <ul>
+            <p>Get to know us</p>
+            <a>Careers</a>
+            <a>Blog</a>
+<a> About Clickkart </a>
+<a> Investor Relations </a>
+<a> Clickkart Devices </a>
+<a> Clickkart Science </a>
+</ul>
+     <ul>
+<p>Got to know us </p>
+<a> Careers </a>
+<a> Blog </a>
+<a> Clickkart.jobs </a>
+<a> Investor Relations </a>
+<a> Clickkart devices </a>
+<a> Clickkart Science </a>
+</ul>
+
+   </div>
+          
+<div class="foot-panel3">
+<div class="foot-panel4">
+<div class="Pages" align="center">
+<a> Condition of use </a>
+<a> Privacy notice </a>
+<a> Your Ads privacy choice </a>
+</div>
+  
+
+<div class="copyright" align="center">
+1996-2023 Clickkart.com Inc. or its affiliates
+</div>
+  </div>
+
+</div>
+</footer>
+
+</body>
+</html>
